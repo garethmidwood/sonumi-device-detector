@@ -1,0 +1,36 @@
+{
+  "name": "sonumi-device-detector",
+  "version": "0.1.0",
+  "description": "sonumi device detector",
+  "main": "lib/detector",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/garethmidwood/sonumi-device-detector.git"
+  },
+  "keywords": [
+    "sonumi",
+    "device",
+    "detector"
+  ],
+  "author": "Gareth <“gmidwood@gmail.com”> (http://www.garethmidwood.co.uk/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/garethmidwood/sonumi-device-detector/issues"
+  },
+  "homepage": "https://github.com/garethmidwood/sonumi-device-detector",
+  "dependencies": {
+    "config": "^1.17.1",
+    "net-ping": "^1.1.12",
+    "sonumi-logger": "git+ssh://git@github.com/garethmidwood/sonumi-logger.git"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4",
+    "rewire": "^2.5.1",
+    "sinon": "^1.17.2",
+    "sinon-as-promised": "^4.0.0"
+  }
+}
