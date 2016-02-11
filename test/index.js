@@ -2,13 +2,11 @@ var chai   = require('chai'),
     sinon  = require('sinon'),
     rewire = require('rewire');
 
-require('sinon-as-promised');
-
 var expect = chai.expect;
 var assert = chai.assert;
 
 
-describe("Scan", function() {
+describe("It scans for devices", function() {
     var detector,
         loggerMock,
         sonumiLoggerMock,
@@ -44,9 +42,4 @@ describe("Scan", function() {
 
         assert(networkAdapterMock.scan.calledOnce);
     });
-});
-
-
-describe("LAN adapter", function() {
-    // test that the lan adapter scans the network
 });
